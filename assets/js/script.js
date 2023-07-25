@@ -16,7 +16,7 @@ form.addEventListener('submit', function(event) {
     document.getElementById('infos').classList.remove('hidden');
 
     if (bmi < 18.5) {
-        description = 'Atenção! Você está aaixo do peso ideal'
+        description = 'Atenção! Você está abaixo do peso ideal'
     } else if (bmi >= 18.5 && bmi <= 25) {
         description = 'Você está no peso ideal';
         value.classList.remove('attention')
